@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        header, footer{
+            
+            width: 50%;
+            margin-left: 25%;
+            text-align: center;
+            border:red 1px dotted;
+        }
+        div{
+            margin: 0.5em;
+        }
+        .contendedor{
+            display: grid;
+           grid-template-columns: 30% 70%;
+        }
+
+        .grid-2{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        } 
+
+    </style>
+  </head>
+  <body>
+    <header><div>Texto Cabecera</div></header>
+    <div class="contendedor">
+      <div class="columnaIzq">Texto Expandido</div>
+      <div class="grid-2">
+        <div>Texto principal</div>
+        <div>Texto principal</div>
+        <div>Texto principal</div>
+        <div>Texto principal</div>
+      </div>
+    </div>
+    <footer>
+        <div>Texto Pie de Pagina</div>
+    </footer>
+  </body>
+</html>
